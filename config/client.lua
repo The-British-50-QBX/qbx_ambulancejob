@@ -15,19 +15,32 @@ return {
     ---@type AuthorizedVehicles for automobiles
     authorizedVehicles = { -- Vehicles players can use based on their ambulance job grade level
         [0] = { -- Grade 0
-            ['ambulance'] = 'Ambulance',
+            ['dca1'] = 'Box Ambulance',
         },
         [1] = { -- Grade 1
-            ['ambulance'] = 'Ambulance',
+            ['dca1'] = 'Box Ambulance',
+            ['paramedic'] = 'Ambulance',
         },
         [2] = { -- Grade 2
-            ['ambulance'] = 'Ambulance',
+            ['dca1'] = 'Box Ambulance',
+            ['paramedic'] = 'Ambulance',
+            ['lasmacheels'] = 'Ford Mustang Mach E V1',
         },
         [3] = { -- Grade 3
-            ['ambulance'] = 'Ambulance',
+            ['dca1'] = 'Box Ambulance',
+            ['paramedic'] = 'Ambulance',
+            ['lasmacheels'] = 'Ford Mustang Mach E V1',
+            ['lasmache2els'] = 'Ford Mustang Mach E V2',
+            ['specilist'] = 'BMW X5 Fast Response',
         },
         [4] = { -- Grade 4
-            ['ambulance'] = 'Ambulance',
+            ['dca1'] = 'Box Ambulance',
+            ['paramedic'] = 'Ambulance',
+            ['lasmacheels'] = 'Ford Mustang Mach E V1',
+            ['lasmache2els'] = 'Ford Mustang Mach E V2',
+            ['lasmache3els'] = 'Ford Mustang Mach E V3',
+            ['specilist'] = 'BMW X5 Fast Response',
+            ['ufbi'] = 'BMW 5 Series Unmarked',
         },
     },
 
