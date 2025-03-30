@@ -5,12 +5,10 @@ return {
     locations = { -- Various interaction points
         duty = {
             vec3(351.15, -588.42, 28.8),
-            vec3(-254.88, 6324.5, 32.58),
             vec3(-1417.38, -271.77, 46.48), -- Rockford
         },
         vehicle = {
             vec4(336.92, -580.3, 28.48, 340.07),
-            vec4(-234.28, 6329.16, 32.15, 222.5),
             vec4(-1426.1, -261.25, 46.01, 131.21), -- Rockford
         },
         helicopter = {
